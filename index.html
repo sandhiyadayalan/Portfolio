@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container p-2">
+            <a class="navbar-brand" style="font-style: bold; font-size: 24px;" href="#">Sandhiya Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto" style="font-style: bold; font-weight: 500;">
+                    <li class="nav-item px-2 "><a class="nav-link text-light" href="#home">Home</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-light" href="#about">About</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-light" href="#projects">Projects</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-light" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container-fluid d-flex flex-md-row text-light bg-secondary py-5 px-0 gap-5">
+        <div class="profile">
+            <img style="height: 200px ;width: 200px; border-radius: 50%; border: 2px solid black;"
+                src="/images/IMG20241126131725.jpg">
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1>SANDHIYA D</h1>
+                <p class="text-italic">Frontend Developer</p>
+                <a href="assets/Sandhiya_Resume.pdf" style="border: 2px solid black; border-radius: 20px;"
+                    download="Sandhiya_Resume.pdf" class="btn btn-light p-2">
+                    <i class="bi bi-download pe-1"></i> Download Resume
+                </a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+                <a href="https://www.linkedin.com/in/sandhiya-d-9512571aa/" target="_blank"
+                    class="btn btn-outline-none text-dark social-icon">
+                    <i class="bi bi-linkedin" style="font-size: 16px; border-radius: 50%;"></i>
+                </a>
+                <a href="https://github.com/sandhiyadayalan" target="_blank"
+                    class="btn btn-outline-none text-dark social-icon">
+                    <i class="bi bi-github" style="font-size: 16px; border-radius: 50%;"></i>
+                </a>
+                <a href="mailto:sandhiyad193@gmail.com?subject=Hello Sandhiya&body=I would like to connect with you regarding your portfolio."
+                    class="btn btn-outline-none text-dark social-icon">
+                    <i class="bi bi-envelope-fill" style="font-size: 16px; border-radius: 50%;"></i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="pt-5 container-fluid" style="border: 2px solid grey;">
+        <div style="text-align: center; text-decoration: underline;">
+            <h3 class="mb-4">About Me</h3>
+        </div>
+        <div class="profile container text-center mb-4" style="width: fit-content;">
+            <img style="height: 200px ;width: 200px; border-radius: 50%; border: 2px solid black;"
+                src="/images/IMG20241126131725.jpg">
+        </div>
+        <div class="container">
+            <div class="row gap-4">
+                <div class=" col-sm-12 col-md text-center py-3" style="border: 2px solid black; border-radius: 25px;">
+                    <div class="badge bg-primary text-dark bg-light">
+                        <i class="bi bi-award-fill" style="font-size: 24px;"></i>
+                    </div>
+                    <div>
+                        <h5>Experience</h5>
+                    </div>
+                    <div>2+ Years</div>
+                    <div>
+                        Process Executive
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md text-center py-3" style="border: 2px solid black; border-radius: 25px;">
+                    <div class="badge bg-primary text-dark bg-light">
+                        <i class="bi bi-mortarboard-fill" style="font-size: 24px;"></i>
+                    </div>
+                    <div>
+                        <h5>Education</h5>
+                    </div>
+                    <div>
+                        Master of Computer<br>Application
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 container text-center">
+            <div>
+                <p>
+                    I am currently working as a Process Executive with 2 years of professional experience. During this
+                    time, I developed a strong interest in coding and self-taught myself frontend development skills,
+                    including HTML, CSS, JavaScript, and React.js. My passion for creating interactive and user-friendly
+                    web interfaces inspired me to pursue a career in UI development. Through consistent learning and
+                    practice, I have equipped myself with the necessary skills to excel in frontend development and am
+                    now fully prepared to transition into a rewarding UI career.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-secondary py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-light">My Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-3">
+                    <div class="card border border-2 border-dark rounded ">
+                        <img src="/images/image.png" style="width: 100%x; height: 200px;"
+                            class="card-img-top border border-2 border-secondary rounded" alt="Abokichi">
+                        <div class="card-body">
+                            <h5 class="card-title">ABOKICHI</h5>
+                            <!-- <p class="card-text">This is a duplicate website that I created myself using frontend
+                                languages like HTML, CSS, and JavaScript. It is fully mobile responsive.</p> -->
+                            <div style="text-align: center;"
+                                class="d-flex flex-md-column flex-lg-row justify-content-center align-items-center gap-3">
+                                <a style="width: 120px;" href="https://github.com/sandhiyadayalan/Abokichi"
+                                    class="btn btn-secondary border border-2 border-dark rounded"
+                                    target="_blank">GitHub</a>
+                                <a style="width: 120px;" href="https://eclectic-platypus-f5e150.netlify.app/"
+                                    class="btn btn-secondary border border-2 border-dark rounded" target="_blank">Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-3">
+                    <div class="card border border-2 border-dark rounded ">
+                        <img src="/images/Screenshot from 2024-12-18 15-37-46.png" style="width: 100%x; height: 200px;"
+                            class="card-img-top border border-2 border-secondary rounded" alt="password generator">
+                        <div class="card-body">
+                            <h5 class="card-title">PASSWORD GENERATOR</h5>
+                            <!-- <p class="card-text">It is a web-based tool that creates secure passwords based on
+                                user-selected criteria such as length, lowercase, uppercase, numbers, and symbols. It
+                                includes a strength indicator to classify the password as Weak, Moderate, or Strong.
+                                </p> -->
+                            <div style="text-align: center;"
+                                class="d-flex flex-md-column flex-lg-row justify-content-center align-items-center gap-3">
+                                <a style="width: 120px;" href="https://github.com/sandhiyadayalan/Password-Generator/"
+                                    class="btn btn-secondary border border-2 border-dark rounded"
+                                    target="_blank">GitHub</a>
+                                <a style="width: 120px;" href="https://password-security-created.netlify.app/"
+                                    class="btn btn-secondary border border-2 border-dark rounded" target="_blank">Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="col-md-3">
+                    <div class="card border border-2 border-dark rounded ">
+                        <img src="/images/image.png" style="width: 100%x; height: 200px;"
+                            class="card-img-top border border-2 border-secondary rounded" alt="Abokichi">
+                        <div class="card-body">
+                            <h5 class="card-title">ABOKICHI</h5>
+                            <!-- <p class="card-text">This is a duplicate website that I created myself using frontend
+                                languages like HTML, CSS, and JavaScript. It is fully mobile responsive.</p> -->
+                            <div style="text-align: center;"
+                                class="d-flex flex-md-column flex-lg-row justify-content-center align-items-center gap-3">
+                                <a style="width: 120px;" href="https://github.com/sandhiyadayalan/Abokichi"
+                                    class="btn btn-secondary border border-2 border-dark rounded"
+                                    target="_blank">GitHub</a>
+                                <a style="width: 120px;" href="https://eclectic-platypus-f5e150.netlify.app/"
+                                    class="btn btn-secondary border border-2 border-dark rounded" target="_blank">Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="col-md-3">
+                    <div class="card border border-2 border-dark rounded ">
+                        <img src="/images/image.png" style="width: 100%x; height: 200px;"
+                            class="card-img-top border border-2 border-secondary rounded" alt="Abokichi">
+                        <div class="card-body">
+                            <h5 class="card-title">ABOKICHI</h5>
+                            <!-- <p class="card-text">This is a duplicate website that I created myself using frontend
+                                languages like HTML, CSS, and JavaScript. It is fully mobile responsive.</p> -->
+                            <div style="text-align: center;"
+                                class="d-flex flex-md-column flex-lg-row justify-content-center align-items-center gap-3">
+                                <a style="width: 120px;" href="https://github.com/sandhiyadayalan/Abokichi"
+                                    class="btn btn-secondary border border-2 border-dark rounded"
+                                    target="_blank">GitHub</a>
+                                <a style="width: 120px;" href="https://eclectic-platypus-f5e150.netlify.app/"
+                                    class="btn btn-secondary border border-2 border-dark rounded" target="_blank">Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <p class="text-center">Feel free to reach out through the following:</p>
+            <ul class="list-unstyled text-center mb-0">
+                <li><a href="mailto:sandhiyad193@gmail.com?subject=Hello Sandhiya&body=I would like to connect with you regarding your portfolio."
+                        class="btn btn-outline-none text-dark">
+                        <i class="bi bi-envelope-fill" style="font-size: 16px; "></i>
+                    </a>Email: <a href="mailto:sandhiyad193@gmail.com">sandhiyad193@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/sandhiya-d-9512571aa/" target="_blank"
+                        class="btn btn-outline-none text-dark ">
+                        <i class="bi bi-linkedin" style="font-size: 16px; "></i>
+                    </a>LinkedIn: <a href="https://www.linkedin.com/in/sandhiya-d-9512571aa/"
+                        target="_blank">linkedin.com/in/sandhiya-d-9512571aa/</a>
+                </li>
+                <li><a href="https://github.com/sandhiyadayalan" target="_blank" class="btn btn-outline-none text-dark">
+                        <i class="bi bi-github" style="font-size: 16px; "></i>
+                    </a>GitHub: <a href="https://github.com/sandhiyadayalan"
+                        target="_blank">github.com/sandhiyadayalan</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-light py-3">
+        <p>© 2024 Sandhiya. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
